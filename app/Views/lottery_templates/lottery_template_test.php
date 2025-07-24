@@ -72,34 +72,34 @@
         font-style: normal;
         font-weight: normal;
         text-decoration: none;
-        font-size: 42pt;
+        font-size: 40pt;
         position: absolute;
-        top: 50.5mm;
+        top: 51mm;
         right: 39mm !important;
     }
 
     .draw-number-count {
-        color: #ff0d0d;
+        color: #fff;
         font-family: 'Arial Black', sans-serif;
         font-style: normal;
         font-weight: normal;
         text-decoration: none;
         font-size: 18pt;
         position: absolute;
-        top: 150px;
+        top: 152px;
         right: 43.5%;
     }
 
     .draw-date-top {
-        color: #fff;
+        color: #0a0a54;
         font-family: 'Arial Black', sans-serif;
         font-style: normal;
         font-weight: normal;
         text-decoration: none;
-        font-size: 28pt;
+        font-size: 23pt;
         position: absolute;
-        top: 37.4mm;
-        right: 34mm;
+        top: 39.4mm;
+        right: 37mm;
     }
 
     .draw-date-top.draw-8pm {
@@ -322,7 +322,7 @@
 
     .footer-middle {
         position: absolute;
-        color: #001F5F;
+        color: #ffff1fff;
         font-family: "Arial Black", sans-serif;
         font-size: 25pt;
         left: 50%;
@@ -388,7 +388,7 @@
 
     .draw-date {
         position: absolute;
-        color: #fff;
+        color: #ffff1f;
         font-family: "Arial Black", sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -705,7 +705,7 @@
             <span class="first-number"><?=$first?></span>
             <span class="draw-number-count"><?=$onePmCount?></span>
             <span class="draw-date-top"><?=$date_full?></span>
-            <img src="<?=base_url()?>assets/images/main-header-1pm-result.jpg" alt="Header Image"
+            <img src="<?=base_url()?>assets/lottery-assets/lottery-header.jpg" alt="Header Image"
                 class="header-image" />
             <?php } else if($time == '8 PM') { ?>
             <!-- 8pm header -->
@@ -827,7 +827,7 @@
                     </div>
                 </div>
 
-                <img class="footer-image" src="<?=base_url()?>assets/images/image(3).png" alt="">
+                <img class="footer-image" src="<?=base_url()?>assets/lottery-assets/image-footer.png" alt="">
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>

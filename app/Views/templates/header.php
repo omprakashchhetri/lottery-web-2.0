@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?=$title?></title>
-    <link rel="icon" href="<?=base_url()?>assets/images/logo.png" />
+    <link rel="icon" href="<?=base_url()?>assets/images/logo-kerala-trans.png" />
     <link rel="stylesheet" href="<?=base_url()?>assets/plugins/bootstrap-5.3.7-dist/css/bootstrap.min.css" />
     <!-- Google Fonts -->
     <link
@@ -26,9 +26,9 @@
             <nav class="navbar navbar-expand-md navbar-dark bg-primary p-0">
                 <div class="container-fluid navbar-wraper inline-gap padding-main">
                     <a class="navbar-brand icon-main" href="#">
-                        <img class="img-fluid" src="<?=base_url()?>assets/images/icon.jpg" alt="Logo" />
+                        <img class="img-fluid" src="<?=base_url()?>assets/images/logo-kerala-trans.png" alt="Logo" />
                     </a>
-                    <span class="brand-name font-title">MEGHALAYA STATE LOTTERIES</span>
+                    <span class="brand-name font-title">KERALA STATE LOTTERIES</span>
                     <button class="navbar-toggler menubar-toggle" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">

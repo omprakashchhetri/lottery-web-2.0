@@ -4,7 +4,7 @@
   --spacing: 30px;
   --primary700: #1374c2;
   --para-color: rgb(80, 85, 92);
-  --bs-primary-dark: #330000;
+  --bs-primary-dark: #0c0b2c;
 }
 
 /* ======================
@@ -47,7 +47,9 @@ p {
   width: 60px;
   overflow: hidden;
   background-color: #fff;
-  padding: 10px;
+  padding: 5px;
+  padding-bottom: 10px;
+  padding-top: 8px;
   border-radius: 50%;
 }
 .main-width {
@@ -384,7 +386,7 @@ p {
   max-width: 1170px;
   margin: 60px auto;
   margin-bottom: 35px;
-  background: linear-gradient(135deg, #8e0000, var(--primary700));
+  background: linear-gradient(135deg, #030812, var(--primary700));
   border-radius: 20px;
   color: white;
   padding: 50px 30px;
@@ -396,7 +398,7 @@ p {
 }
 .buy-tickets-btn {
   font-weight: 600;
-  color: #990000;
+  color: #004e99;
 }
 @media only screen and (max-width: 767px) {
   .body-container {
