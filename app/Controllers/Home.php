@@ -42,7 +42,7 @@ class Home extends BaseController
         ];
         
         $passToView = [
-            'title' => 'Meghalaya State Lotteries',
+            'title' => ucfirst(strtolower(STATENAME)).' State Lotteries',
             'resultArray' => $resultArray,
             'processedResults' => $processedResults,
             'currentTime' => $currentTime,

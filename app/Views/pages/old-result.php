@@ -31,7 +31,7 @@
                 <div class="conten-wrapper">
                     <div class="section-container">
                         <h3 class="ad-heading font-body mb-4">
-                            SINGHAM MEGA LOTTERY DRAW
+                            <?= LOTTERYNAME ?> MEGA LOTTERY DRAW
                         </h3>
                         <h4 class="heading-1 mb-0">
                             Ticket Price ₹600 Only — Win up to ₹5 CRORE!

@@ -1,6 +1,6 @@
  <footer class="site-footer bg-primary p-5 mt-4 border-top inline-gap">
      <p class="text-center font-body text-white draw-terms-para mb-0">
-         © 2025 - Meghalaya State Lotteries
+         © <?=date('Y')?> - <?= ucfirst(strtolower(STATENAME)); ?> State Lotteries
      </p>
      <!-- <a
           href="/"
@@ -45,6 +45,24 @@ jQuery(document).ready(function() {
             jQuery(".menu-backdrop").hide();
         }
     });
+    const $text = $('.marquee-text');
+    const $container = $('.marquee-container');
+    const containerWidth = $container.width();
+    const textWidth = $text.width();
+    let left = containerWidth;
+
+    function scroll() {
+        left--;
+        $text.css('left', left + 'px');
+
+        if (left < -textWidth) {
+            left = containerWidth;
+        }
+
+        requestAnimationFrame(scroll);
+    }
+
+    scroll();
     // jQuery(document).on("click", ".menu-backdrop", function () {
     //   jQuery(".menubar-toggle").trigger("click");
     // });

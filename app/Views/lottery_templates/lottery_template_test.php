@@ -66,6 +66,19 @@
         position: relative;
     }
 
+    .lottery-label {
+        color: #fff;
+        font-family: 'Arial Black', sans-serif;
+        position: absolute;
+        max-width: 310px;
+        line-height: 1;
+        top: 24mm;
+        right: 38mm;
+        font-size: 18pt;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
     .first-number {
         color: #f00;
         font-family: 'Arial Black', sans-serif;
@@ -104,15 +117,18 @@
 
     .draw-date-top.draw-8pm {
         font-size: 23pt;
-        top: 145px;
-        right: 37mm;
+        top: 147px;
+        right: 38mm;
+        color: #fff;
     }
 
     .draw-number-count.draw-8pm {
         font-size: 17pt;
         position: absolute;
-        top: 145px;
-        right: 42%;
+        top: 150px;
+        right: 43%;
+        font-size: 20pt;
+        color: red;
     }
 
     .content {
@@ -701,18 +717,19 @@
     <div class="page">
         <!-- Header Image Section -->
         <div class="header-wrapper">
+            <span class="lottery-label">BUMPER <?=strtoupper(date('l'))?> WEEKLY LOTTERY</span>
             <?php if($time == '1 PM'){ ?>
             <span class="first-number"><?=$first?></span>
             <span class="draw-number-count"><?=$onePmCount?></span>
             <span class="draw-date-top"><?=$date_full?></span>
-            <img src="<?=base_url()?>assets/lottery-assets/lottery-header.jpg" alt="Header Image"
+            <img src="<?=base_url()?>assets/lottery-assets/main-kerala-header.jpg" alt="Header Image"
                 class="header-image" />
             <?php } else if($time == '8 PM') { ?>
             <!-- 8pm header -->
             <span class="first-number"><?=$first?></span>
             <span class="draw-number-count draw-8pm"><?=$onePmCount?></span>
             <span class="draw-date-top draw-8pm"><?=$date_full?></span>
-            <img src="<?=base_url()?>assets/images/main-header-8pm-result.jpg" alt="Header Image"
+            <img src="<?=base_url()?>assets/lottery-assets/main-kerala-8pm.jpg" alt="Header Image"
                 class="header-image" />
             <?php } ?>
         </div>

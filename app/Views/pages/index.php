@@ -3,21 +3,27 @@
     <div class="body-container">
         <div class="heading-wrapper p-0">
             <h4 class="bg-primary text-center font-body heading-1">
-                KERALA STATE LOTTERIES
+                <?= STATENAME ?> STATE LOTTERIES
             </h4>
         </div>
         <div class="heading-wrapper">
-            <h2 class="heading-2 font-body"><strong>SINGHAM</strong></h2>
+            <h2 class="heading-2 font-body"><strong><?= LOTTERYNAME ?></strong></h2>
         </div>
         <div class="heading-wrapper p-0">
-            <h4 class="bg-primary text-center font-body heading-3">
-                KERALA WEEKLY LOTTERY
-            </h4>
+            <div class="marquee-container bg-primary text-center "
+                style="overflow: hidden; position: relative; width: 100%; min-height: 50px">
+                <h4 class="marquee-text mt-1 mb-0 font-body heading-3" style="position: absolute; white-space: nowrap;">
+                    Welcome to the <?= ucfirst(strtolower(STATENAME)) ?> State Lottery. Daily draws are conducted at
+                    around 1:00 PM and 8:00 PM.
+                    Check your
+                    results regularly and stand a chance to win life-changing rewards. Play responsibly.
+                </h4>
+            </div>
         </div>
         <div class="para-wrapper">
             <p class="font-body para-color para-align">
                 Stay updated with the latest results and information about
-                Kerala State Lotteries. Your gateway to winning opportunities
+                <?= ucfirst(strtolower(STATENAME)); ?> State Lotteries. Your gateway to winning opportunities
                 awaits.
             </p>
         </div>
@@ -128,27 +134,28 @@
             <div class="para-wrapper">
                 <p class="draw-terms-para para-color font-body">
                     One times a day, a First Prize of Rs. 75 Lakhs is up for grabs in
-                    the Kerala Future Daily Lottery. Every day of the week has a
+                    the <?= ucfirst(strtolower(STATENAME)); ?> Future Daily Lottery. Every day of the week has a
                     distinct name for the draws. For instance, the draws on Sunday
                     are referred to as Future Brook, the draws on Monday as Future
                     Stream, and so forth. Each draw's name and draw date are listed
                     in the table below.
                 </p>
                 <p class="draw-terms-para para-color font-body">
-                    Kerala Lottery on , at precisely 1:00 PM. This famous website
-                    called the Kerala Lottery, has built a reputation for quickly
+                    <?= ucfirst(strtolower(STATENAME)); ?> Lottery on , at precisely 1:00 PM. This famous website
+                    called the <?= ucfirst(strtolower(STATENAME)); ?> Lottery, has built a reputation for quickly
                     publishing
                 </p>
                 <p class="draw-terms-para para-color font-body">
                     the most current lottery results. So, respected customers,
-                    please accept these results for the Kerala State Lotteries
+                    please accept these results for the <?= ucfirst(strtolower(STATENAME)); ?> State Lotteries
                     1:00 PM Morning Result.
                 </p>
                 <p class="draw-terms-para para-color font-body">
-                    Check Today Result 1 PM today Kerala State Lotteries , Singham
+                    Check Today Result 1 PM today <?= ucfirst(strtolower(STATENAME)); ?> State Lotteries ,
+                    <?= ucfirst(strtolower(LOTTERYNAME)) ?>
                     Lottery Result 1:00 PM. As you know lottery draw (1:00 PM)
                     has been rescheduled and now being updated at 1:00 PM. You may
-                    check Singham Lottery morning result here at 1:00 PM. Today
+                    check <?= ucfirst(strtolower(LOTTERYNAME)) ?> Lottery morning result here at 1:00 PM. Today
                     result will also be updated here on this page. Stay connected
                     with us to check your today's draw result of the day. Those who
                     have tickets for the draw (1:00 PM) stay connected with us.

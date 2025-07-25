@@ -28,7 +28,7 @@
                     <a class="navbar-brand icon-main" href="#">
                         <img class="img-fluid" src="<?=base_url()?>assets/images/logo-kerala-trans.png" alt="Logo" />
                     </a>
-                    <span class="brand-name font-title">KERALA STATE LOTTERIES</span>
+                    <span class="brand-name font-title"><?= STATENAME ?> STATE LOTTERIES</span>
                     <button class="navbar-toggler menubar-toggle" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
