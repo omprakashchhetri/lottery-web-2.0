@@ -98,7 +98,7 @@
                             Add Result
                         </a>
                     </li>
-                    <li class="no-sub">
+                    <!-- <li class="no-sub">
                         <a href="<?=base_url('admin/add-lottery')?>">
                             <i class="iconoir-google-docs"></i>
                             Add Ticket
@@ -109,7 +109,7 @@
                             <i class="iconoir-cash"></i>
                             Add Transaction
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
 

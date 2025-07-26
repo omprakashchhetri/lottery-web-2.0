@@ -28,14 +28,14 @@ $routes->group('admin', function ($routes) {
     $routes->get('dashboard', 'Dashboard::index', ['filter' => 'login']);
     $routes->get('admin-dashboard', 'Dashboard::admin_dashboard',['filter' => 'login']);
     $routes->get('add-result', 'Dashboard::add_result', ['filter' => 'login']);
-    $routes->get('add-lottery', 'Dashboard::add_lottery', ['filter' => 'login']);
+    // $routes->get('add-lottery', 'Dashboard::add_lottery', ['filter' => 'login']);
     $routes->get('view-result/(:any)', 'LotteryController::view_result/$1', ['filter' => 'login']);
-    $routes->get('lottery-print', 'Dashboard::lottery_print', ['filter' => 'login']);
+    // $routes->get('lottery-print', 'Dashboard::lottery_print', ['filter' => 'login']);
     $routes->get('edit-result/(:any)', 'Dashboard::edit_result/$1', ['filter' => 'login']);
     // $routes->post('delete-result', 'LotteryController::deleteResult');
     $routes->post('update-prize-series', 'Dashboard::updatePrizeSeries', ['filter' => 'login']);
     // $routes->get('add-result/(:segment)', 'Dashboard::add_result/$1', ['filter' => 'login']);
-    $routes->get('create-transaction', 'Transaction::create_transaction', ['filter' => 'login']);
+    // $routes->get('create-transaction', 'Transaction::create_transaction', ['filter' => 'login']);
     $routes->get('generate-pdf', 'PdfGenerator::generateLotteryResult');
     $routes->post('delete-result', 'LotteryController::deleteResult', ['filter'=>'login']);
 });
